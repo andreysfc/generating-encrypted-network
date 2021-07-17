@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Capture Script 
-# Author: Andrey Ferriyan <andrey@sfc.wide.ad.jp>
+# Author: Andrey Ferriyan 
 #
 # v1.1
 
