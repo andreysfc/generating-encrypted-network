@@ -26,8 +26,8 @@ class AutoSignPost(object):
         self.DEBUG = DEBUG
         self.HEADLESS = HEADLESS
         if platform.system() == 'Linux':
-            self.FIREFOX_DRIVER="../../aux/firefox/geckodriver"
-            self.CHROME_DRIVER="../../aux/chrome/chromedriver"
+            self.FIREFOX_DRIVER="../aux/firefox/geckodriver"
+            self.CHROME_DRIVER="../aux/chrome/chromedriver"
         elif platform.system() == 'Windows':
             print("You are using Windows OS. Please set your browser driver PATH")
 

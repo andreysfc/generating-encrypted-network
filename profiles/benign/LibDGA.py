@@ -17,8 +17,8 @@ class LibDGA(object):
 		>>> email = ldga()	
 		"""
 
-		PROPERNAMES="../../raw_data/names/propernames.txt"
-		VALIDEMAIL="../../raw_data/emailproviders/valid_email_providers.txt"
+		PROPERNAMES="../names/propernames.txt"
+		VALIDEMAIL="../emailproviders/valid_email_providers.txt"
 		self.properName = properName
 		self.fName = None
 		self.fMail = None

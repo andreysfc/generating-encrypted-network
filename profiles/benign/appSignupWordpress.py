@@ -14,7 +14,7 @@ URLSIGNUP="<put your wordpress sign up url here>"
 if __name__ == "__main__":
 	NOREG = 100 
 
-	logging.basicConfig(filename="registration.log", level=logging.DEBUG)
+	logging.basicConfig(filename="wordpressignup.log", level=logging.DEBUG)
 	
 	email = ldga()
 	aus   = ausi(PROXY="localhost:8080")

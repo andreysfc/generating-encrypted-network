@@ -14,7 +14,7 @@ URLSIGNUP = "<put your drupal registration link here>"
 if __name__ == "__main__":
 	NOREG = 100 
 
-	logging.basicConfig(filename="registerdrupal.log", level=logging.DEBUG)
+	logging.basicConfig(filename="signupdrupal.log", level=logging.DEBUG)
 	
 	email = ldga()
 	aus   = ausi(PROXY="localhost:8080")

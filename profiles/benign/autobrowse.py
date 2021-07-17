@@ -25,9 +25,9 @@ PROXY=1
 THREADS=5
 threads = []
 
-FIREFOX_DRIVER="../../aux/firefox/geckodriver"
-CHROME_DRIVER="../../aux/chrome/chromedriver"
-TOPWEBSITES="../../raw_data/sites/top-1m.csv"
+FIREFOX_DRIVER="../aux/firefox/geckodriver"
+CHROME_DRIVER="../aux/chrome/chromedriver"
+TOPWEBSITES="../sites/top-1m.csv"
 
 # mitmproxy configuration
 ourProxy = "localhost:8080"
