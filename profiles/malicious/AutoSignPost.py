@@ -150,13 +150,6 @@ class AutoSignPost(object):
             title_crawl = browser.find_element_by_class_name('entry-title').text
             content_crawl = browser.find_element_by_id('wtr-content').text
         
-        #print("pass grabbing title...")
-        #print("{}".format(title_crawl))
-        
-        # still error here
-        #browserpost = self._login(urldest, username, password, driver)
-        #with self._browserDriver(driver) as browserpost:
-
             browser.get("{}/wp-login.php".format(urldest))
             browser.find_element_by_id("user_login").send_keys(username)
             browser.find_element_by_id("user_pass").send_keys(password)
@@ -170,7 +163,6 @@ class AutoSignPost(object):
             WebDriverWait(browser, 30).until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".editor-post-publish-button"))).click()        
             
         browser.quit()
-        #browserpost.quit()
         self._checkDriver(driver)
 
     def signIn(self, urlsignin, username, password, driver):
