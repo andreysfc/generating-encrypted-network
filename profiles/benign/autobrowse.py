@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # Automatic browsing random websites using Selenium Python
-# Author: Andrey Ferriyan <andrey@sfc.wide.ad.jp>
+# Author: Andrey Ferriyan 
 # Script: autobrowse.py
 # v1.0
 #

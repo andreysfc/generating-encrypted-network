@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # Random Name Generator for DGA 
-# Author: Andrey Ferriyan <andrey@sfc.wide.ad.jp>
+# Author: Andrey Ferriyan 
 # Script: LibDGA.py
 # v1.9
 # 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # Main Script for automatic sign up and sign in with selenium python
-# Author: Andrey Ferriyan <andrey@sfc.wide.ad.jp>
+# Author: Andrey Ferriyan
 # Script: app.py
 # v1.0
 

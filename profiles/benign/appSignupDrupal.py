@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # Main Script for automatic sign up and sign in with selenium python
-# Author: Andrey Ferriyan <andrey@sfc.wide.ad.jp>
-# Script: app.py
+# Author: Andrey Ferriyan 
+# Script: appSignupDrupal.py 
 # v1.0
 
 from LibDGA import LibDGA as ldga

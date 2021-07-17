@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # Automatic Signup, Login, and Post for Drupal using Selenium Python
-# Author: Andrey Ferriyan <andrey@sfc.wide.ad.jp>
+# Author: Andrey Ferriyan 
 # Script: AutoSignPost.py
 # v3.0
 #
